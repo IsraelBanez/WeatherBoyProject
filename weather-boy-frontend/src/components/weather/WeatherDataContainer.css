@@ -1,0 +1,38 @@
+.weather-data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-data-container span{
+    margin-top: 5px;
+    padding: 2px 6px;
+    min-width: min-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: none;
+    border-radius: 10px;
+
+    color: #FB5656;
+    text-align: center;
+    text-indent: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    
+    background-color: #ffffffdb;
+    
+    svg{
+        min-width: 9px;
+        min-height: 9px;
+        path{
+            fill: #FB5656;
+        }
+    }
+}

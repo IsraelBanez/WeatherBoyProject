@@ -1,0 +1,104 @@
+.weather-data-content{
+    min-width: min-content;
+    width: 100%;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    border-radius: 50px;
+
+    color: #363537;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    h2, h3{
+        margin: 0;
+    }
+
+    img{
+        width: 64px;
+        height: 64px;
+        object-fit: contain;
+    }
+}
+
+.wdc-location{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+.wdc-location h2{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.wdc-location h3, .wdc-weather h3, .wdc-moon h3{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.wdc-temp{
+    display: flex;
+    flex-direction: row;
+}
+.wdc-temp h1{
+    margin: 0;
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 400;
+}
+.wdc-temp div{
+    font-size: 42px;
+    line-height: 58px;
+    font-weight: 400;
+
+}
+
+.wdc-weather{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #363537;
+    border-radius: 25px 100px 25px 100px;
+}
+.wdc-weather div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.wdc-weather h2, .wdc-moon h2{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.wdc-moon{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #363537;
+    border-radius: 100px 25px 100px 25px;
+
+    color: #C7C3C3;
+}
+.wdc-moon div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

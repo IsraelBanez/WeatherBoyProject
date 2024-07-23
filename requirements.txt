@@ -1,0 +1,8 @@
+asgiref
+Django
+djangorestframework
+django-cors-headers
+requests
+sqlparse
+tzdata
+python-dotenv

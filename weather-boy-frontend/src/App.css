@@ -1,0 +1,19 @@
+.weather-boy{
+  box-sizing: border-box;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 10%;
+  gap: 50px;
+
+  background: linear-gradient(to bottom, #83F6BF, #8AB3E4);
+}
+
+@media (max-width: 320px) {
+  .weather-boy{
+    overflow-x: auto;
+    padding: 10px;
+  }
+}
