@@ -29,7 +29,8 @@ A simple web application that displays the current weather to the users based on
 </br>
 
 ## Overall Status
-_**Finished**_
+_**Finished**_ </br>
+_No Longer Running On Ec2 (follow instructions below to set up a local environment)_
 </br>
 </br>
 
